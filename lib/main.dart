@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:th_app/splash.dart';
-import 'package:th_app/ui/home/home.dart';
-import 'package:th_app/ui/login/login.dart';
+import 'package:eunimart/splash.dart';
+import 'package:eunimart/ui/home/home.dart';
+import 'package:eunimart/ui/login/login.dart';
+import 'package:eunimart/ui/subscription/subscription.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,10 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(),
+      home: Splash(),
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
-

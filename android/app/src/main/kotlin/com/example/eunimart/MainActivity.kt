@@ -1,4 +1,4 @@
-package com.an2t.th_app
+package com.example.eunimart
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

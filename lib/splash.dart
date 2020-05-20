@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:th_app/ui/login/login.dart';
+import 'package:eunimart/ui/login/login.dart';
 
 import 'util/app_constants.dart';
 
@@ -11,26 +11,30 @@ class Splash extends StatefulWidget {
 }
 
 class _SplashState extends State<Splash> {
-
   Timer timer;
 
   @override
   void initState() {
     super.initState();
-    timer = Timer(Duration(seconds: 2),() {
-      Navigator.pushReplacement(context, MaterialPageRoute(
-          settings: RouteSettings(name: ROUTE_LOGIN),
-          builder: (context) => Login()));
+    timer = Timer(Duration(seconds: 5), () {
+      Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+              settings: RouteSettings(name: ROUTE_LOGIN),
+              builder: (context) => Login()));
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Compnay Name'),
+        body: Container(
+      color: Colors.white,
+      child: Center(
+        child: Image.asset(
+          'assets/images/logo.png',
+        ),
       ),
-    );
+    ));
   }
 }
