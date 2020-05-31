@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.eunimart"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/pankaj/flutter_test/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/pankaj/flutter_test/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] /home/pankaj/flutter_test/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:file_picker] /home/pankaj/flutter_test/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:connectivity] /home/pankaj/flutter_test/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+16-->[:connectivity] /home/pankaj/flutter_test/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[:connectivity] /home/pankaj/flutter_test/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-76
+17-->[:connectivity] /home/pankaj/flutter_test/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-73
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+18-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+19    <!--
+20 io.flutter.app.FlutterApplication is an android.app.Application that
+21         calls FlutterMain.startInitialization(this); in its onCreate method.
+22         In most cases you can leave this as-is, but you if you want to provide
+23         additional functionality it is fine to subclass or reimplement
+24         FlutterApplication and put your custom class here.
+25    -->
+26    <application
+26-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:8:5-29:19
+27        android:name="io.flutter.app.FlutterApplication"
+27-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:9:9-57
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] /home/pankaj/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:11:9-43
+31        android:label="eunimart" >
+31-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:10:9-33
+32        <activity
+32-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:12:9-23:20
+33            android:name="com.example.eunimart.MainActivity"
+33-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:13:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:16:13-163
+35            android:hardwareAccelerated="true"
+35-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:17:13-47
+36            android:launchMode="singleTop"
+36-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:14:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:15:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:18:13-55
+39            <intent-filter>
+39-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:19:13-22:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:20:17-68
+40-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:20:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:21:17-76
+42-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:21:27-74
+43            </intent-filter>
+44        </activity>
+45        <!--
+46             Don't delete the meta-data below.
+47             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+48        -->
+49        <meta-data
+49-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:26:9-28:33
+50            android:name="flutterEmbedding"
+50-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:27:13-44
+51            android:value="2" />
+51-->/home/pankaj/flutter_test/android/app/src/main/AndroidManifest.xml:28:13-30
+52
+53        <provider
+53-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+54            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+54-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+55            android:authorities="com.example.eunimart.flutter.image_provider"
+55-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+56            android:exported="false"
+56-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+57            android:grantUriPermissions="true" >
+57-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+58            <meta-data
+58-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+60                android:resource="@xml/flutter_image_picker_file_paths" />
+60-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+61        </provider>
+62        <provider
+62-->[:flutter_webview_plugin] /home/pankaj/flutter_test/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-18:20
+63            android:name="androidx.core.content.FileProvider"
+63-->[:flutter_webview_plugin] /home/pankaj/flutter_test/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-62
+64            android:authorities="com.example.eunimart.fileprovider"
+64-->[:flutter_webview_plugin] /home/pankaj/flutter_test/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-64
+65            android:exported="false"
+65-->[:flutter_webview_plugin] /home/pankaj/flutter_test/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-37
+66            android:grantUriPermissions="true" >
+66-->[:flutter_webview_plugin] /home/pankaj/flutter_test/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-47
+67            <meta-data
+67-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+69                android:resource="@xml/filepaths" />
+69-->[:image_picker] /home/pankaj/flutter_test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+70        </provider>
+71
+72        <activity
+72-->[:url_launcher] /home/pankaj/flutter_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+73            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+73-->[:url_launcher] /home/pankaj/flutter_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+74            android:exported="false"
+74-->[:url_launcher] /home/pankaj/flutter_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+75            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+75-->[:url_launcher] /home/pankaj/flutter_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+76    </application>
+77
+78</manifest>
